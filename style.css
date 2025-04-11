@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Figtree', sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    color: #111111;
+}
+
+/* Text Style */
+
+h1 {
+    font-weight: 800;
+    font-size: 1.2rem;
+    margin: 12px 0;
+}
+
+h2 {
+    font-weight: 800;
+    font-size: 0.85rem;
+}
+
+p {
+    font-size: 0.75rem;
+}
+
+
+/* Layout */
+
+#container {
+    width: 100%;
+    height: 100vh;
+    background-color: #F4D04E;
+    overflow: hidden;
+    display:flex;
+    justify-content: center;
+    align-items: center
+}
+
+#card {
+    width: 327px;
+    height: fit-content;
+    background-color: white;
+    border-radius: 20px;
+    padding: 24px;
+    border: 1px solid black;
+    box-shadow: 6px 6px black;
+}
+
+#card-head {
+    margin-top: 10px
+}
+
+#card-info {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#card-tag {
+    background-color: #F4D04E;
+    max-width:fit-content;
+    padding: 4px 12px;
+    border-radius: 4px;
+    margin-bottom: 12px;
+}
+
+#card-footer {
+    display:flex;
+    align-items: center;
+    gap: 12px;
+}
+
+
+/* Component */
+.tag {
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+#img-main {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 12px;
+}
+
+#img-avartar{
+    width: 32px;
+    height: 32px;
+}
+
+#card-info p {
+    color: #6B6B6B;
+}
+
+#card:hover .blink-text {
+    color: #F4D04E;
+    transition-duration: 500ms;
+}
+
+#card:hover {
+    box-shadow: 18px 18px black;
+    transition-duration: 300ms;
+    cursor: pointer;
+}
