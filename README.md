@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://pete13232.github.io/blog-preview-card-frontend-mentor-challenge/
 
 ## My process
 
@@ -67,4 +67,4 @@ To see how you can add code snippets, see below:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/pete13232)
+- Frontend Mentor - @pete13232 (https://www.frontendmentor.io/profile/pete13232)
